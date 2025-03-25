@@ -1,7 +1,7 @@
 # COVID-19 Case Prediction and Modelling
 
 ## Overview
-This repository contains a machine learning pipeline for predicting COVID-19 cases based on clinical symptoms. The project involves data preprocessing, feature engineering, model selection, evaluation, and deployment. A web application was created using **Flask Application** and is hosted at [COVID-19 Prediction App](https://covid19test.streamlit.app/).
+This repository contains a machine learning pipeline for predicting COVID-19 cases based on clinical symptoms. The project involves data preprocessing, feature engineering, model selection, evaluation, and deployment. A web application was created using **Flask Application**.
 
 ## Table of Contents
 - [Installation](#installation)
