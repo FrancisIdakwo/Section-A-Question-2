@@ -19,7 +19,7 @@ This repository contains a machine learning pipeline for predicting COVID-19 cas
 ## Installation
 To run this project, install the required dependencies:
 ```bash
-pip install lazypredict shap scikit_learn pandas geopandas matplotlib openpyxl statsmodels streamlit joblib
+pip install lazypredict shap scikit_learn pandas geopandas matplotlib openpyxl statsmodels joblib
 ```
 
 ## Data Collection
@@ -61,19 +61,10 @@ Performance was measured using:
 ## Model Deployment
 The best model can be deployed using **Flask** or **Streamlit**:
 - Flask app: `covid19_flask_app.py`
-- Streamlit app: `covid19_streamlit_app.py`
 
 ## Results
 - Identified the best-performing model based on **F1 Score**.
 - Logistic Regression **ANOVA-like** analysis was conducted.
-
-## Web Application
-A **Streamlit** web application was developed to allow users to predict COVID-19 cases based on symptoms. The application:
-- Lets users input symptoms via a user-friendly interface.
-- Uses a trained **Random Forest model** to predict whether the case is **Positive** or **Negative**.
-- Displays the prediction result in real-time.
-
-You can access the web application here: [COVID-19 Prediction App](https://covid19test.streamlit.app/).
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
